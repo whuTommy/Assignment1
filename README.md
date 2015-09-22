@@ -12,7 +12,7 @@
 1. 眼瞎，各种url写错，正确形式如下：  
 	String url = "http://210.42.121.241/servlet/GenImg";  
 2. 看不到输出，不知道运行成功没有？  
-	```java
+	```
 	if(response.ok()){  
 		response.receive(new File(fName));  
 		System.out.println("ok");//这里加上输出信息  
