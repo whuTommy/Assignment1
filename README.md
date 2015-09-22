@@ -7,11 +7,10 @@
 2. 最终请将你所写的Java代码以及爬取结果一同打包至.zip压缩包中，命名格式：学号-姓名-Assignment1。
 3. 所有作业请提交到Github上Assignment1 repository下的submit-homework文件夹下，所有提交至其他地方的作业视作无效。
 4. Deadline：10月1日 0:00
-5. 
 
 常见疑难杂症：    
 1. 眼瞎，各种url写错，正确形式如下：  
-String url = "http://210.42.121.241/servlet/GenImg";  
+	String url = "http://210.42.121.241/servlet/GenImg";  
 2. 看不到输出，不知道运行成功没有？  
 	```java
 	if(response.ok()){  
@@ -34,5 +33,5 @@ String url = "http://210.42.121.241/servlet/GenImg";
 	- 可以去爬其他网站，不用在教务部网站这棵树上吊死，比如去祸害什么csdn、优酷、爱奇艺什么的  
 	- 别去爬一样的网站首页，去爬一些标识性比较强的页面，这样不容易让我们认为你是copy的  
 6. url编码问题：  
-url里面如果有中文字符和空格符，请不要直接使用，这需要服务器支持才行，所以请把此类url输入到浏览器中，再复制回来，可以就得到encode的url了，详情你们可以百度URL编码
+	url里面如果有中文字符和空格符，请不要直接使用，这需要服务器支持才行，所以请把此类url输入到浏览器中，再复制回来，可以就得到encode的url了，详情你们可以百度URL编码
 7. 之后你们有问题可以写在readme文件里面通过作业提交！
