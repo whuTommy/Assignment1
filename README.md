@@ -8,7 +8,7 @@
 3. 所有作业请提交到Github上Assignment1 repository下的submit-homework文件夹下，所有提交至其他地方的作业视作无效。
 4. Deadline：10月1日 0:00
 
-常见疑难杂症：    
+#####常见疑难杂症：    
 1. 眼瞎，各种url写错，正确形式如下：  
 	String url = "http://210.42.121.241/servlet/GenImg";  
 2. 看不到输出，不知道运行成功没有？  
